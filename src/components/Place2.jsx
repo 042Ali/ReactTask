@@ -1,32 +1,51 @@
-import { Button, TextField } from "@mui/material";
 import "./Place2.css";
 
 export default function Place2() {
   return (
     <>
-      <div style={{ marginLeft: "100px" }}>
-        <div className="sidebar">
-          <div className="Account">
-            <div>
-              <h1>Currency</h1>
-            </div>
-            <div className="Input1">
-              <h2>Country of bank account</h2>
+      <div className="Place__card">
+        <div className="input-fields">
+          <h2 className="input-title">Name</h2>
+          <div className="name-inputs">
+            <input
+              type="text"
+              placeholder="First Name"
+              className="text-input"
+            />
+            <input type="text" placeholder="Last Name" className="text-input" />
+          </div>
 
-              <TextField
-                style={{ height: "34px", width: "400px" }}
-                id="outlined-basic"
-                label="Country"
-                variant="outlined"
-              />
-            </div>
-            <div className="input2"></div>
-            <Button
-              style={{ marginTop: "30px", width: "410px" }}
-              variant="contained"
+          <h2 className="input-title">Email</h2>
+          <input type="email" placeholder="Email" className="text-input" />
+
+          <h2 className="input-title">Address</h2>
+          <input
+            type="text"
+            placeholder="Address Line 1"
+            className="text-input"
+          />
+          <input
+            type="text"
+            placeholder="Address Line 2"
+            className="text-input"
+          />
+          <input type="text" placeholder="City" className="text-input" />
+          <input type="text" placeholder="Zip" className="text-input" />
+
+          <div className="button-container">
+            <button
+              className="submit-button"
+              style={{
+                width: "295px",
+                background: "rgb(74, 58, 255)",
+                border: "1px solid rgb(74, 58, 255)",
+                color: "white",
+                borderRadius: "5px",
+                height: "30px",
+              }}
             >
               Continue
-            </Button>
+            </button>
           </div>
         </div>
       </div>

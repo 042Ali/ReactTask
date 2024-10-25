@@ -3,6 +3,8 @@ import Button from "@mui/material/Button";
 import useFormStore from "../store";
 import "./Place1.css";
 import Place2 from "./Place2";
+import Place3 from "./place3";
+import Place4 from "./Place4";
 
 export default function Place1() {
   const {
@@ -10,7 +12,6 @@ export default function Place1() {
     businessAddress,
     businessType,
     addressLine1,
-    addressLine2,
     city,
     zip,
     setBusinessAddress,
@@ -123,6 +124,8 @@ export default function Place1() {
         )}
 
         {formPhase === 2 && <Place2 />}
+        {formPhase === 3 && <Place3 />}
+        {formPhase === 4 && <Place4 />}
       </form>
     </div>
   );

@@ -1,0 +1,116 @@
+.nav-bar {
+  display: flex;
+  gap: 10px;
+  margin-left: 100px;
+}
+
+.nav-bar p {
+  padding: 10px;
+  border-radius: 3px 0 0 0;
+  opacity: 0;
+  background: rgba(85, 82, 217, 0.08);
+  color: rgb(110, 110, 255);
+}
+
+.nav-bar a {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: grid;
+  background-color: rgb(238, 238, 238);
+  width: 50px;
+  text-align: center;
+  border-radius: 30px;
+  max-height: 350px;
+  margin-left: 100px;
+}
+
+.card-container .card-title {
+  height: 40px;
+  background-color: #fff;
+  width: 40px;
+  border-radius: 30px;
+  margin-left: 4px;
+}
+
+.text-section {
+  display: grid;
+  max-height: 370px;
+}
+
+.flex-container {
+  display: flex;
+  gap: 30px;
+}
+
+.input-section {
+  display: grid;
+  margin-left: 150px;
+}
+
+.input-section input {
+  height: 30px;
+  width: 290px;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 196, 196);
+}
+
+.name-fields {
+  display: flex;
+  gap: 10px;
+  width: 100px;
+}
+
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.form-select {
+  width: 100%;
+}
+
+.form-input {
+  height: 30px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(196, 196, 196);
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.form-button {
+  background: rgb(74, 58, 255);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  cursor: pointer;
+  transition: background 0.3s;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-button:last-child {
+  margin-right: 0;
+}
+
+.form-button:hover {
+  background: rgb(54, 38, 204);
+}
