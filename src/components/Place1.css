@@ -1,0 +1,54 @@
+.sidebar {
+  h3 {
+    margin-left: 100px;
+  }
+}
+
+.Sidebarcard {
+  display: grid;
+  background-color: #eeeeee;
+  width: 50px;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 100px;
+  margin-left: 10px;
+
+  h1 {
+    background-color: #fff;
+    width: 40px;
+    border-radius: 30px;
+    margin-left: 4px;
+    font-weight: 500;
+  }
+}
+
+.Text__card {
+  margin-left: 70px;
+  margin-top: -310px;
+
+  h2 {
+    height: 60px;
+  }
+}
+
+.Account {
+  color: #596476;
+  margin-left: 300px;
+  font-size: 12px;
+  margin-top: -330px;
+}
+
+.input2 {
+  display: grid;
+
+  input {
+    width: 410px;
+    margin-top: 30px;
+    height: 30px;
+    border: 1px solid #d8d5d5;
+  }
+}
+
+.Input1 {
+  margin-top: 60px;
+}
